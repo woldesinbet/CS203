@@ -10,6 +10,12 @@ package javaapplication2;
  * @author lealemmum
  */
 public class JavaApplication2 {
+ 
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
  int beerNum=99;
 		String word="botteles";
 		while (beerNum>0){
@@ -28,7 +34,12 @@ public class JavaApplication2 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+   
+        // TODO code application logic here
+    }
+    
+}
+
         // TODO code application logic here
     }
     
