@@ -8,13 +8,13 @@ public class BreeSong {
 			if (beerNum==1){
 				word="bottle";
 			}
-			System.out.println(beerNum + word +"of bree on the wall");
-			System.out.println(beerNum+word+"of bree.");
+			System.out.println(beerNum +" "+  word+" "  + "of bree on the wall");
+			System.out.println(beerNum +" "+ word +" "+" of bree.");
 			System.out.println("take one down.");
 			System.out.println("pass it around");
 			beerNum=beerNum-1;
 			if (beerNum>0){
-				System.out.println(beerNum+"  "+"of bree on the wall");
+				System.out.println(beerNum+"  "+ "of bree on the wall");
 			}else{
 					System.out.println("no more bottle of bree on the wall");
 				}

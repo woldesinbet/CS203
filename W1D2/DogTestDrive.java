@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package working.fizzbuzz;
+package dogtestdrive;
 
 /**
  *
  * @author lealemmum
  */
-public class WorkingFizzBuzz {
+public class DogTestDrive {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int x=0;
-      for(x=0;x<=100;x++){
+        Dog d = new Dog();
+        d.size=40;
+        d.bark();
         // TODO code application logic here
-      }}
-          
+    }
+    
+}
