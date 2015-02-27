@@ -12,10 +12,9 @@ package Homework3;
 public class SmallestNumber {
    public static void main (String[] args){
         double [] nums= new double[100];
-        double smallest=0;
+        double smallest=nums[0];
         for(int i=0; i<nums.length;i++){
             nums[i]= Math.random()*100;
-            smallest= nums[0];
             if(nums[i]<smallest){
                 smallest= nums[i];
             }   
